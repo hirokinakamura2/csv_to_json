@@ -1,0 +1,51 @@
+header{
+    width: 30%;
+    hright: 20px;
+    background-color: #c61373;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    p{
+        font-family: 'Teko', sans-serif!important;
+        text-align: center;
+        font-size: 1.6rem;
+        color: #ffffff;
+        letter-spacing: 5px;
+        vertical-align: bottom;
+        line-height: 1.6rem;
+
+    }
+    p:nth-of-type(2){
+        font-size: 1rem;
+        letter-spacing: 2px;
+        line-height: 1rem;
+    }
+}
+.container{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+    form{
+        width: 100%;
+        .form-item{
+            width: 100%;
+            margin: 0 auto;
+            p{
+                text-align: center;
+            }
+
+            input{
+                display: block;
+                margin: 0 auto;
+                margin-top: 20px;
+            }
+        }
+        .erMsg{
+            margin-bottom: 20px!important;
+            p{
+                color: #a30e36;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+header {
+  width: 30%;
+  hright: 20px;
+  background-color: #c61373;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+}
+header p {
+  font-family: "Teko", sans-serif !important;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #ffffff;
+  letter-spacing: 5px;
+  vertical-align: bottom;
+  line-height: 1.6rem;
+}
+header p:nth-of-type(2) {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  line-height: 1rem;
+}
+
+.container {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.container form {
+  width: 100%;
+}
+.container form .form-item {
+  width: 100%;
+  margin: 0 auto;
+}
+.container form .form-item p {
+  text-align: center;
+}
+.container form .form-item input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.container form .erMsg {
+  margin-bottom: 20px !important;
+}
+.container form .erMsg p {
+  color: #a30e36;
+}
+
+/*# sourceMappingURL=styles.css.map */
